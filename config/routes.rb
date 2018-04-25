@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'corporate/terms'
   get 'corporate/privacy'
   get 'corporate/responsible'
+  get 'corporate/sitemap'
 
   get 'slots/best'
   get 'slots/new'
