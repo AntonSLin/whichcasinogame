@@ -1,0 +1,115 @@
+
+/* REVIEW SECOND NAV BAR */
+.review-nav {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.7),0 1px 0 0 rgba(0,0,0,0.03);
+  background: linear-gradient(to right, $facebookblue, $ericssondarkblue 50%, $facebookblue);
+  transition: all 0.3s ease;
+  height: 100px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.review-nav-logo {
+  border: 1px solid transparent;
+}
+.review-nav-logo:hover {
+  opacity: 0.9;
+}
+.review-nav-logo:hover ~ .btn-play {
+  background: $whatsappgreen;
+}
+.review-nav-summary {
+  margin-left: 30px;
+}
+.review-nav-summary p {
+  margin: 0;
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 0 5px;
+  border-right: 5px solid $airbnbred;
+  border-left: 5px solid $airbnbred;
+}
+.review-nav-summary:hover p {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.review-nav-summary:hover ~ .btn-play {
+  background: $whatsappgreen;
+}
+.review-nav-name {
+  text-align: center;
+  min-width: 150px;
+  margin: 0 20px;
+}
+.review-nav-name h5 {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: underline;
+}
+.review-nav-name:hover h5 {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.review-nav-name:hover ~ .btn-play {
+  background: $whatsappgreen;
+}
+.review-nav-play {
+  margin-left: 10px;
+  min-width: 150px;
+}
+
+
+/* REVIEW BODY */
+.review-body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 1000px;
+  background: linear-gradient(to bottom left,
+      rgba(245, 245, 255, 0.9),
+      rgba(200, 200, 200, 0.8)
+    ), url(reviewbackground.jpg);
+  background-size: cover !important;
+  background-position: 30% 60% !important;
+  padding: 140px 40px 40px;
+  max-width: 100%;
+}
+
+
+/* REVIEW MAIN SECTION */
+.review-body-main {
+  min-width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: $twitterlightblue;
+  border: 5px solid $facebookblue;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.7),0 1px 0 0 rgba(0,0,0,0.03);
+}
+.review-body-main-images {
+  margin: 20px auto;
+  width: 250px;
+  display: block;
+  box-shadow: 1px 1px 1px black;
+}
+.review-body-main-details {
+  margin: 10px 10px;
+  padding: 20px;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.7),0 1px 0 0 rgba(0,0,0,0.03);
+}
+.review-body-main-details h3 {
+  color: black;
+}
+.review-body-main-details p {
+  color: $twitterdarkgray;
+}

@@ -15,5 +15,7 @@ class PagesController < ApplicationController
   end
   def best_offers
   end
+  def articles
+  end
 
 end
