@@ -93,6 +93,7 @@ Rails.application.routes.draw do
   get 'sports', to: 'pages#sports'
   get 'bingo', to: 'pages#bingo'
   get 'best_offers', to: 'pages#best_offers'
+  get 'articles', to: 'pages#articles'
 
   devise_for :users
   root to: 'pages#home'

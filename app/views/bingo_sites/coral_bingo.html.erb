@@ -1,2 +1,56 @@
-<h1>BingoSites#coral_bingo</h1>
-<p>Find me in app/views/bingo_sites/coral_bingo.html.erb</p>
+<!-- CSS found in pages/_review.scss -->
+
+<div class="review-nav">
+  <div class="review-nav-logo">
+    <%= link_to "https://www.skybingo.com", target: :_blank do %>
+      <%= image_tag "bingo_sites/sky_bingo.jpg", width: 200 %>
+    <% end %>
+  </div>
+  <div class="hidden-xs hidden-sm review-nav-summary">
+    <p>Some of the cheapest bingo games with bets starting at just a few pence, and a friendly layout for new players</p>
+  </div>
+  <div class="hidden-xs review-nav-name">
+    <h5>Sky Bingo</h5>
+  </div>
+  <%= link_to "Play now", "https://www.skybingo.com", target: :_blank, class: "btn btn-play" %>
+</div>
+
+<div class="review-body">
+  <div class="review-body-main">
+    <%= image_tag "bingo_sites/sky_bingo.jpg", class: "review-body-main-images" %>
+    <div class="review-body-main-details">
+      <h3 style="margin-top: 0;">Current Offers</h3>
+      <p>£5 Bonus Back</p>
+      <p>Prize Boost</p>
+      <p>Chat Games</p>
+      <hr>
+      <%= link_to "Sign up", "https://www.skybingo.com", target: :_blank, class: "btn btn-sign-up" %>
+      <hr>
+      <h3>New Player Offers</h3>
+      <p>Spend £10 and play with £60</p>
+      <hr>
+      <h3>Site Summary</h3>
+      <h5>Betting</h5>
+      <p>£0.01p to £200</p>
+      <h5>Deposits</h5>
+      <p>£10 minimum</p>
+      <h5>Withdrawal</h5>
+      <p>£10 minimum, no maximum</p>
+      <p>2-5 working days</p>
+      <h5>Loyalty Scheme</h5>
+      <p>A system called Prize Burst makes free games available each day, with over 15,000 prizes daily. The prizes range from free games to £50.</p>
+      <h5>Devices</h5>
+      <p>App for mobile, or if you prefer not to download anything the regular site is mobile-friendly</p>
+      <h5>Other Games</h5>
+      <p>Live Casino, Casino, Sports</p>
+      <hr>
+      <%= link_to "Sign up", "https://www.skybingo.com", target: :_blank, class: "btn btn-sign-up" %>
+      <hr>
+      <h3>Sky Bingo Review</h3>
+      <p>Sky Bingo is part of the massive Sky family of online gambling sites, and it provides a wide range of bingo rooms including some of the cheapest online bingo available. <br><br>In general, the site is geared towards helping new online bingo players find their way, with easy navigation, smaller deposits starting at £10, and easy and quick withdrawals. There are some slots available for a little distraction between bingo games, and of course you can visit Sky's main casino site for their full offering of poker, slots, live casino and other casino games. <br><br>You can test the site quite cheaply by playing in their many penny bingo rooms, or go straight to the higher priced games that reach up to £200. All of this can be done on the desktop site or on mobile through their downloadable apps, making it an easy and player-friendly interface. <br><br>The loyalty scheme has been replaced by Sky Bingo's Prize Burst, which makes free games available to members with 15,000 prizes each day ranging from free games to £50. The best thing about these prizes is that you automatically play the bonus money before you play your own money!</p>
+
+    </div>
+  </div>
+  <!-- Details for Right Menu in respective HTML and SCSS files -->
+  <%= render 'shared/right_menu' %>
+</div>

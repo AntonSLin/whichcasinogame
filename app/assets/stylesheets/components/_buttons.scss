@@ -1,0 +1,47 @@
+.btn-play {
+  color: white;
+  border-radius: 4px;
+  max-height: 40px;
+  font-weight: bold;
+  background: $airbnbred;
+  transition: background 0.3s ease;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.btn-play:hover {
+  background: $whatsappgreen;
+  text-decoration: none;
+  color: white;
+}
+.btn-sign-up {
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 30%;
+  min-width: 100px;
+  display: block;
+  margin: 0 auto;
+  background: $airbnbred;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+.btn-sign-up:hover {
+  background: $whatsappgreen;
+  text-decoration: none;
+  color: white;
+}
+.btn-articles {
+  height: 70px;
+  border-radius: 0;
+  background-color: black;
+  width: 100%;
+  color: white;
+  transition: 0.3s ease;
+  font-weight: bold;
+  font-size: 43px;
+  font-family: "Roboto", "sans-serif";
+}
+.btn-articles:hover {
+  background-color: $whatsappgreen;
+  color: white;
+}
