@@ -1,2 +1,31 @@
-<h1>Casino#best</h1>
-<p>Find me in app/views/casino/best.html.erb</p>
+<!-- CSS found in _game.scss -->
+
+<div class="game-nav">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= link_to "Best Casino Sites", casino_best_path, class: "btn btn-game-nav" %>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= link_to "New Casino Sites", casino_new_path, class: "btn btn-game-nav" %>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= link_to "All Casino Sites", casino_all_path, class: "btn btn-game-nav" %>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= link_to "Casino Game Rules", casino_rules_path, class: "btn btn-game-nav" %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="game-body game-body-casino">
+  <div class="game-body-main">
+    <div class="game-body-main-details">
+
+    </div>
+  </div>
+
+
+  <%= render 'shared/right_menu' %>
+</div>

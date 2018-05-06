@@ -13,6 +13,7 @@
   text-decoration: none;
   color: white;
 }
+
 .btn-sign-up {
   color: white;
   border-radius: 5px;
@@ -30,6 +31,7 @@
   text-decoration: none;
   color: white;
 }
+
 .btn-articles {
   height: 70px;
   border-radius: 0;
@@ -43,5 +45,22 @@
 }
 .btn-articles:hover {
   background-color: $whatsappgreen;
+  color: white;
+}
+
+.btn-game-nav {
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  background: $airbnbred;
+  transition: background 0.3s ease;
+  cursor: pointer;
+  display: block;
+  margin: 5px 0;
+  white-space: normal;
+}
+.btn-game-nav:hover {
+  background: $whatsappgreen;
+  text-decoration: none;
   color: white;
 }
