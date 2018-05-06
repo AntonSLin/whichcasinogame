@@ -1,2 +1,31 @@
-<h1>Slots#new</h1>
-<p>Find me in app/views/slots/new.html.erb</p>
+<!-- CSS found in _game.scss -->
+
+<div class="game-nav">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= link_to "Best Slots Sites", slots_best_path, class: "btn btn-game-nav" %>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= link_to "New Slots Sites", slots_new_path, class: "btn btn-game-nav" %>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= link_to "All Slots Sites", slots_all_path, class: "btn btn-game-nav" %>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= link_to "How Slots Work", slots_rules_path, class: "btn btn-game-nav" %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="game-body game-body-slots">
+  <div class="game-body-main">
+    <div class="game-body-main-details">
+
+    </div>
+  </div>
+
+
+  <%= render 'shared/right_menu' %>
+</div>

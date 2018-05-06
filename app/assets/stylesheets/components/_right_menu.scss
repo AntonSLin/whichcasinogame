@@ -1,7 +1,7 @@
 .right-menu {
   padding: 10px;
   margin-left: 40px;
-  background: $snapchatyellow;
+  background-color: $airbnbred;
   border-radius: 10px;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.7),0 1px 0 0 rgba(0,0,0,0.03);
 }
@@ -13,8 +13,8 @@
 }
 .right_menu_box h5 {
   text-align: right;
-  color: black;
-  text-shadow: 1px 1px 1px white;
+  color: white;
+  text-shadow: 1px 1px 1px gray;
   font-weight: bold;
 }
 .right_menu_link:hover {
@@ -24,23 +24,23 @@
   margin-top: 1px;
   height: 40px;
   width: 240px;
-  border: 2px solid black;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.5),0 1px 0 0 rgba(0,0,0,0.03);
-  border-radius: 0;
+  border-radius: 4px;
   background-color: white;
   display: flex;
   justify-content: space-between;
   transition: 0.3s ease;
 }
 .right_menu_link:hover .right_menu_item {
-  background-color: black;
+  opacity: 0.9;
 }
+/*
 .right_menu_link:hover .right_menu_name {
   color: white;
 }
 .right_menu_link:hover .fa-play-circle {
   color: white;
-}
+}*/
 .right_menu_logo {
   width: 40px;
   position: relative;
