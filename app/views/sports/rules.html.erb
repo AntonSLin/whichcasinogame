@@ -1,2 +1,35 @@
-<h1>Sports#rules</h1>
-<p>Find me in app/views/sports/rules.html.erb</p>
+<!-- CSS found in _game.scss -->
+
+<div class="game-nav">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= link_to "Best Sports Betting Sites", sports_best_path, class: "btn btn-game-nav" %>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= link_to "New Sports Betting Sites", sports_new_path, class: "btn btn-game-nav" %>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= link_to "All Sports Betting Sites", sports_all_path, class: "btn btn-game-nav" %>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= link_to "Understand Sports Betting Odds", sports_rules_path, class: "btn btn-game-nav" %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="game-body game-body-sports">
+  <div class="game-body-main">
+    <div class="game-body-main-details">
+
+      <h3 style="margin-top: 0;">How Sports betting odds work</h3>
+      <p>Rules rules rules</p>
+      <hr>
+
+    </div>
+  </div>
+
+  <%= render 'shared/right_menu' %>
+</div>
+
