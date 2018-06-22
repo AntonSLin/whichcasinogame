@@ -13,7 +13,7 @@
         <%= link_to "All Live Casino Sites", live_casino_all_path, class: "btn btn-game-nav" %>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <%= link_to "What makes Live Casino different?", live_casino_rules_path, class: "btn btn-game-nav" %>
+        <%= link_to "Casino Game Rules", casino_rules_path, class: "btn btn-game-nav" %>
       </div>
     </div>
   </div>
@@ -23,9 +23,104 @@
   <div class="game-body-main">
     <div class="game-body-main-details">
 
+      <h3 style="margin-top: 0;">Live Casino!</h3>
+      <p>Live Casino has grown and grown in popularity recently, as people move towards the more social offering it provides. All the fun of your favourite casino games, but now with a video feed to a real dealer who is dealing real cards or spinning a real roulette wheel, instead of a random number generator.</p>
+      <hr>
+      <h3>See all of the best Live Casino sites out there today</h3>
+      <%= link_to "Best Live Casino Sites", live_casino_best_path, class: "btn btn-game-nav" %>
+      <hr>
+
+      <div class="game-body-main-site">
+        <div class="container">
+          <div class="row" style="text-align: center;">
+            <div class="col-xs-12 col-md-6">
+              <%= link_to "https://www.skybingo.com", target: :_blank do %>
+                <%= image_tag "bingo_sites/sky_bingo.jpg", class: "game-body-main-image" %>
+              <% end %>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <p>Sky Bingo - Spend £10 and play with £60</p>
+            </div>
+            <div class="col-xs-12">
+              <%= link_to "Read More", bingo_sites_sky_bingo_path, class: "btn btn-read-more" %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="game-body-main-site">
+        <div class="container">
+          <div class="row" style="text-align: center;">
+            <div class="col-xs-12 col-md-6">
+              <%= link_to "https://www.skybingo.com", target: :_blank do %>
+                <%= image_tag "bingo_sites/sky_bingo.jpg", class: "game-body-main-image" %>
+              <% end %>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <p>Sky Bingo - Spend £10 and play with £60</p>
+            </div>
+            <div class="col-xs-12">
+              <%= link_to "Read More", bingo_sites_sky_bingo_path, class: "btn btn-read-more" %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="game-body-main-site">
+        <div class="container">
+          <div class="row" style="text-align: center;">
+            <div class="col-xs-12 col-md-6">
+              <%= link_to "https://www.skybingo.com", target: :_blank do %>
+                <%= image_tag "bingo_sites/sky_bingo.jpg", class: "game-body-main-image" %>
+              <% end %>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <p>Sky Bingo - Spend £10 and play with £60</p>
+            </div>
+            <div class="col-xs-12">
+              <%= link_to "Read More", bingo_sites_sky_bingo_path, class: "btn btn-read-more" %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+      <h3>All the new Live Casino sites with new themes and features</h3>
+      <%= link_to "New Live Casino Sites", live_casino_new_path, class: "btn btn-game-nav" %>
+      <hr>
+      <h3>The rules of the different Casino games</h3>
+      <p>Playing Live Casino is no different to playing on a normal online casino, so all the rules you already know apply in just the same way. For a recap, we have provided...</p>
+      <%= link_to "Casino Game Rules", casino_rules_path, class: "btn btn-game-nav" %>
+      <hr>
+      <h3>All the growing community of Live Casino sites</h3>
+      <div class="game-body-main-site">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <%= image_tag "bingo_sites/sky_bingo.jpg", class: "game-body-main-mini" %>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <%= image_tag "bingo_sites/sky_bingo.jpg", class: "game-body-main-mini" %>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <%= image_tag "bingo_sites/sky_bingo.jpg", class: "game-body-main-mini" %>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <%= image_tag "bingo_sites/sky_bingo.jpg", class: "game-body-main-mini" %>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hidden-lg">
+              <%= image_tag "bingo_sites/sky_bingo.jpg", class: "game-body-main-mini" %>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hidden-lg">
+              <%= image_tag "bingo_sites/sky_bingo.jpg", class: "game-body-main-mini" %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <%= link_to "All Live Casino Sites", live_casino_all_path, class: "btn btn-game-nav" %>
+
     </div>
   </div>
-
-
   <%= render 'shared/right_menu' %>
 </div>
+
